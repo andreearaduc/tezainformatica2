@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+char c[100];
+int main()
+{
+char* a;
+cout<<"Text : ";
+cin.get(c , 100);
+
+a=strtok(a , " ");
+while(a!=NULL)
+{
+    cout << a << " ";
+    a=strtok(NULL , " ");
+}
+
+return 0;
+}
